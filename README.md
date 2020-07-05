@@ -13,7 +13,7 @@ Check [APIDoc]([https://apidocjs.com/](https://apidocjs.com/)) for more info
  2. Run `npx apidoc -i .\src\ -o .\apidoc\ -c .\apidoc.json`
 
 ### UML diagrams
-
+**Note:** check imgs directory for sample
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
 ```mermaid
@@ -29,6 +29,7 @@ User->API: Yes... John, how are you?
 ```
 
 a flow chart:
+**Note:** check imgs directory for sample
 We can use this diagram to describe Frontend scenarios 
 ```mermaid
 graph LR
